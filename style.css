@@ -1,0 +1,141 @@
+
+body{
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: sans-serif;
+}
+
+nav ul{
+    padding: auto;
+    margin: 12px;
+    align-items: center;
+    list-style-type: none;
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+   font-family: sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 10px;
+   padding: 34px;
+   background-image: url('bg.jpg');
+}
+
+.bottom{
+    font-weight: bold;
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 30px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    color: white;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 10px;
+}
+#previous{
+    padding: 8px;
+    font-size: 40px;
+}
+#masterPlay{
+    padding: 8px;
+    font-size: 45px;
+}
+#next{
+    padding: 8px;
+    font-size: 40px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    font-size: 20px;
+    left: 9.8vw;
+    font-family:sans-serif;
+}
+#gif{
+    max-width: 50px;
+    max-height: 20px;
+}
+.songInfo img{
+    position: relative;
+    top: 5px;
+    max-height: 30px;
+    padding: 2px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: white;
+    }
+  }
