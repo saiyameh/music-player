@@ -1,4 +1,3 @@
-
 body{
     background-color: white;
 }
@@ -24,17 +23,12 @@ nav ul{
 nav ul li{
     padding: 0 12px;
 }
-.brand img{
-    width: 44px;
-    padding: 0 8px;
-}
-
-.brand {
+.brand{
+    font-family:sans-serif;
     justify-content: center;
     text-align: center;
     display: flex;
     align-items: center;
-    font-family: sans-serif;
     font-weight: bold;
     font-size: 40px;
 }
@@ -43,7 +37,7 @@ nav ul li{
     background-color: black;
     color: white;
     font-size: 18px;
-   font-family: sans-serif;
+    font-family:sans-serif;
    display: flex;
    margin: 23px auto;
    width: 70%;
